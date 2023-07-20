@@ -1,0 +1,107 @@
+/* Nueva clase para el fondo general */
+body {
+  position: relative;
+}
+
+
+
+/* Agrega el fondo a la clase "darkvader" */
+.darkvader {
+  background-image: url(../../../assets/5445-estrellas.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.rrss svg {
+  margin-right: 0.9em;
+}
+
+.rrss svg:hover {
+  cursor: pointer;
+  color: white !important;
+}
+
+a {
+  color: rgb(164, 164, 164);
+  text-decoration: none;
+}
+
+.menu {
+  border-top: 1px solid rgb(69, 69, 69);
+  border-bottom: 1px solid rgb(69, 69, 69);
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu ul li {
+  text-decoration: none;
+  border-left: 1px solid rgb(69, 69, 69);
+  border-right: 1px solid rgb(69, 69, 69);
+  padding: 1em 2em;
+  list-style: none;
+  cursor: pointer;
+  color: rgb(104, 104, 104);
+}
+
+.logout:hover {
+  color: #fff;
+}
+
+ul li.active {
+  border-bottom: 1px solid white;
+  color: white !important;
+}
+
+li:focus,
+li:hover,
+li:active {
+  color: white !important;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+.usuario {
+  margin-top: -1.5em;
+  margin-left: 2em;
+}
+
+#logo_col {
+  width: 200px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .rrss svg {
+    margin-right: 0.4em;
+  }
+
+  .rrss {
+    margin-right: 0.4em;
+  }
+}
+
+@media (min-width: 768px) {
+  .offcanv {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .oncanv {
+    display: none;
+  }
+
+  #logo_row {
+    width: 230px;
+    cursor: pointer;
+  }
+
+  li:hover {
+    border: 0px solid;
+  }
+}

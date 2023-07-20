@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(10, 11, 11);
+
+    color: rgb(164, 164, 164);
+
+    font-family: 'Roboto Mono', monospace;
+
+    background-image: url(src/assets/background_4.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
